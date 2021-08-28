@@ -1,0 +1,162 @@
+!<arch>
+/               1560239440              0       1147      `
+   '  
+  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  z  NÀ  NÀ  \^  \^  \^  \^  \^  \^CreateTrampolineFunction ??_C@_05GOFNBHKB@MH_OK@ ??_C@_09GPGAJHPD@?$CIunknown?$CJ@ ??_C@_0BB@HHFKFOJC@MH_ERROR_ENABLED@ ??_C@_0BC@CCPCFLPI@MH_ERROR_DISABLED@ ??_C@_0BF@KAPHKAPP@MH_ERROR_NOT_CREATED@ ??_C@_0BG@FHKMAOCO@MH_ERROR_MEMORY_ALLOC@ ??_C@_0BI@HDILIFIJ@MH_ERROR_MEMORY_PROTECT@ ??_C@_0BI@ONHKLIEE@MH_ERROR_NOT_EXECUTABLE@ ??_C@_0BJ@EMFAAEGJ@MH_ERROR_ALREADY_CREATED@ ??_C@_0BJ@NEFDEEIO@MH_ERROR_NOT_INITIALIZED@ ??_C@_0BK@FENDNJHO@MH_ERROR_MODULE_NOT_FOUND@ ??_C@_0BM@JPINPKML@MH_ERROR_FUNCTION_NOT_FOUND@ ??_C@_0BN@NKPDILDH@MH_ERROR_ALREADY_INITIALIZED@ ??_C@_0BO@JGLOGLHI@MH_ERROR_UNSUPPORTED_FUNCTION@ ??_C@_0L@OGPCCONM@MH_UNKNOWN@ MH_ApplyQueued MH_CreateHook MH_CreateHookApi MH_CreateHookApiEx MH_DisableHook MH_EnableHook MH_Initialize MH_QueueDisableHook MH_QueueEnableHook MH_RemoveHook MH_StatusToString MH_Uninitialize g_hHeap g_hooks g_isLocked hde64_disasm hde64_table AllocateBuffer FreeBuffer InitializeBuffer IsExecutableAddress UninitializeBuffer g_pMemoryBlocks 
+/               1560239440              0       1089      `
+   
+  z  ÀN  ^\  '                                          ??_C@_05GOFNBHKB@MH_OK@ ??_C@_09GPGAJHPD@?$CIunknown?$CJ@ ??_C@_0BB@HHFKFOJC@MH_ERROR_ENABLED@ ??_C@_0BC@CCPCFLPI@MH_ERROR_DISABLED@ ??_C@_0BF@KAPHKAPP@MH_ERROR_NOT_CREATED@ ??_C@_0BG@FHKMAOCO@MH_ERROR_MEMORY_ALLOC@ ??_C@_0BI@HDILIFIJ@MH_ERROR_MEMORY_PROTECT@ ??_C@_0BI@ONHKLIEE@MH_ERROR_NOT_EXECUTABLE@ ??_C@_0BJ@EMFAAEGJ@MH_ERROR_ALREADY_CREATED@ ??_C@_0BJ@NEFDEEIO@MH_ERROR_NOT_INITIALIZED@ ??_C@_0BK@FENDNJHO@MH_ERROR_MODULE_NOT_FOUND@ ??_C@_0BM@JPINPKML@MH_ERROR_FUNCTION_NOT_FOUND@ ??_C@_0BN@NKPDILDH@MH_ERROR_ALREADY_INITIALIZED@ ??_C@_0BO@JGLOGLHI@MH_ERROR_UNSUPPORTED_FUNCTION@ ??_C@_0L@OGPCCONM@MH_UNKNOWN@ AllocateBuffer CreateTrampolineFunction FreeBuffer InitializeBuffer IsExecutableAddress MH_ApplyQueued MH_CreateHook MH_CreateHookApi MH_CreateHookApiEx MH_DisableHook MH_EnableHook MH_Initialize MH_QueueDisableHook MH_QueueEnableHook MH_RemoveHook MH_StatusToString MH_Uninitialize UninitializeBuffer g_hHeap g_hooks g_isLocked g_pMemoryBlocks hde64_disasm hde64_table 
+//              1560239440              0       137       `
+x64\Release\libMinHook\trampoline.obj x64\Release\libMinHook\hook.obj x64\Release\libMinHook\hde64.obj x64\Release\libMinHook\buffer.obj 
+/0              1560239439              100666  2362      `
+d† O]ÿ\ž         .drectve        ]   ,               
+ .debug$S        ¤   ‰              @ B.text$mn        e  -  ’           0`.text$mn        <   Î               0`.xdata          (   
+  2         @ 0@.pdata             <  H         @ 0@.chks64         8   f               
+     /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"MSVCRT" /DEFAULTLIB:"OLDNAMES"    ñ   –   X     D:\wZeug\Downloads\minhook-1.3.3\build\VC15\x64\Release\libMinHook\trampoline.obj : < b  Ð   –i   –i Microsoft (R) Optimizing Compiler   H‹ÄH‰XH‰pH‰x UATAUAVAWHh¡Hì    H‹    H3ÄH‰E'3ÿfÇEÿH‰}DŠÿ‰}éDŠçH‰}íD‹ïH‰}ÿH‹Ù@ˆ}·‰}»H‰y ÇE	   fÇE
+ëfÇEçÿ%HÇE÷pÿ%E¶÷HU¿L3E¶äI‹ÎLcè    ÷Eà   D‹À…‘  A¹   I‹öE:ùrL‰uíHuçAQüEA	éð   ŠEÌ$ÇA:ÁuI¶E¿H}I‹ÈA‹Öó¤‹MàHuHÁéA+ÔUÜƒáH+Á‰T€}Êÿ…"  €}Î…  º   é   ŠUÊ€úèuHcEÔHu¶M¿IÆHÈH‰Méå   ŠÂ$ý<éuG¶M¿H¾EÔIÎ€úëtHcEÔHÈH‹H;ÁwIÁH;ÈsL;éICÍL‹éé¬   H‰MíHuçA¸   ë#ŠÊ€áð€ùpt&ŠÂ$ü<àtŠEË$ð<€t€âþ€úÂuyM;õ‹×“Â‰U»ëo¶}¿Iþ€ùptŠÂ$ü<àHcEÔuH¾EÔHøH‹H;ÇwIÁH;øsL;ïICýL‹ïë0ŠÂ$ü<à„1  ¶MËHu÷€ú¶ÂH‰}ÿEÈ€á€ñqˆM÷A¸   ‹U»M;õs
+¶E¿D;À…ø   D¶e·C ƒø2‡æ   ƒ{$ƒÜ   ‹C$A¾   A¶üA‹ÈDˆ|(‹C$Dˆd0EàH{Ds$ó¤D}¿3ÿDˆe·…Ò„äýÿÿE:ùskH‹;A‹ÑA¶÷A¶Ï+ÖHÏè    …ÀuOAFD:øs
++Æ‹Ðè    …ÀtiHOûè    …Àt\H‹ŠAû„Àt<t<ÌuJA‹ÖHƒÁü8u?AÖIÎƒúrñD‰s H‹KA‹ÆH‰Mí‹MïòEçA¶ÔHSH‰Sò‰J·Móf‰Jë3ÀH‹M'H3Ìè    Lœ$    I‹[8I‹s@I‹{HI‹ãA_A^A]A\]Ã&       ‘   
+    ¯  
+    Å  
+    Ò      @      DŠD‹ÊE„ÀtA€øtA€øÌu"Aº   A‹ÒE;Êv‹ÂD8uAÒA;ÑrðA‹ÂÃ3ÀÃ1
+ #t #d #4 # ðàÐÀP                     e                            lTçe–Ô‘.»&,Šb×XfqG‡ß³Ð	@Õae’ûñobÏÅi•…ýï-êÃ        @comp.id–iÿÿ   @feat.00 €ÿÿ   .drectve       ]                 .debug$S       ¤                 .text$mn       e     ¦lY¸      .text$mn       <        
+¶                                        *                >               L                ]            $LN68           .xdata         (      7ø+          u           .pdata               B´ã©          –               ¶            .chks64        8                 È   hde64_disasm CreateTrampolineFunction IsExecutableAddress IsCodePadding __GSHandlerCheck __security_check_cookie $unwind$CreateTrampolineFunction $pdata$CreateTrampolineFunction __security_cookie /38             1560239439              100666  15114     `
+d†1 O]ÿ\¿#  Ñ       .drectve        ]   ¼               
+ .debug$S        œ                 @ B.bss                               € @À.text$mn        ã  µ  ˜      M     0`.text$mn        ¤   š  >          0`.text$mn        ¤   Ê  n      
+    0`.text$mn        ½   Ò            0`.text$mn        Þ   ß  ½      	    0`.text$mn            (          0`.text$mn        =   Z  —          0`.text$mn        ô  «  Ÿ          0`.text$mn        â   ]  ?          0`.text$mn        v               0`.xdata          p   7  §         @ 0@.pdata          T   ±           @ 0@.xdata             ×              @0@.pdata             ß  ë         @0@.xdata             	              @0@.pdata                        @0@.xdata          (   ;  c         @0@.pdata             m  y         @0@.xdata             —              @0@.pdata             §  ³         @0@.xdata             Ñ              @0@.pdata             å  ñ         @0@.xdata                            @0@.pdata                +          @0@.xdata             I               @0@.pdata             U   a          @0@.xdata                            @0@.pdata             “   Ÿ          @0@.xdata             ½               @0@.pdata             Ñ   Ý          @0@.rdata             û               @@@.rdata             !              @0@.rdata             !              @@@.rdata             )!              @@@.rdata             B!              @@@.rdata             [!              @@@.rdata             p!              @@@.rdata             !              @@@.rdata             “!              @@@.rdata             «!              @@@.rdata             É!              @@@.rdata             ß!              @@@.rdata             ÷!              @@@.rdata             "              @@@.rdata          
+   -"              @@@.chks64         ˆ  7"               
+     /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"MSVCRT" /DEFAULTLIB:"OLDNAMES"    ñ      R     D:\wZeug\Downloads\minhook-1.3.3\build\VC15\x64\Release\libMinHook\hook.obj : < b  Ð   –i   –i Microsoft (R) Optimizing Compiler H‰\$WHƒì 3Û‹ûè    H9    u'E3À3Ò3Éÿ    H‰    H…Àtè    ë¿	   ë¿   ‡    H‹\$0‹ÇHƒÄ _ÃÌÌÌÌÌÌÌÌÌH‰\$WHƒì è    3ÛH9    tL3Éè    ‹ø…ÀuDè    L‹    3ÒH‹
+    ÿ    H‹
+    ÿ    H‰    H‰    H‰   ë¿   ‡    H‹\$0‹ÇHƒÄ _ÃÌÌÌÌÌÌ@USVWATAVAWH‹ìHƒì`H‹    H3ÄH‰Eø3ÛM‹ø‹ûL‹âH‹ñè    H9    „9  H‹Îè    …À„"  I‹Ìè    …À„  ‹   AƒÈÿ‹Ã…ÒtH‹
+    H;1t
+ÿÀHƒÁ8;ÂrñA‹ÀA;À…Ù   H‹Îè    L‹ðH…À„¾   HMÀH‰uÀL‰eÈH‰EÐè    …À„’   è    L‹ÀH…Àt~H‹MÀŠP H‰€âøH‹MØH‰HH‹MÐH‰HŠMà€á
+ÑˆP ‹@$3EäƒàA1@$H‹EèI‰@(H‹EðI‰@09]àt‹FûA‰@·FÿfA‰@ŠFAˆ@ë
+‹A‰@ŠFAˆ@M…ÿt9I‹@I‰ë0¿	   ë¿   I‹Îè    ë¿	   ë¿   ë¿   ë¿   ‡    ‹ÇH‹MøH3Ìè    HƒÄ`A_A^A\_^[]ÃÌÌÌÌÌÌÌÌHƒì8Hƒd$  è    HƒÄ8ÃÌÌÌÌÌÌÌÌH‰\$H‰t$WHƒì I‹ùI‹ðH‹Úÿ    H…Àu¸   ë1H‹ÓH‹Èÿ    H‹ÈH…ÀuAëH‹D$PH…ÀtH‰L‹ÇH‹Öè    H‹\$0H‹t$8HƒÄ _ÃÌÌÌÌÌÌÌÌÌH‰\$H‰l$H‰t$WHƒì03ÛH‹é‹óè    H9    „‡   ‹   AƒÈÿH‹
+    ‹û…ÒtH‹ÁH;(t
+ÿÇHƒÀ8;úrñA‹øA;øtO‹ÇHkè8öD) t/E3ÀHL$ ‹×è    3Ò‹Ïè    HL$ ‹ðè    …öu&H‹
+    H‹L)è    ‹Ïè    ë¾   ë¾   ‡    H‹\$@‹ÆH‹l$HH‹t$PHƒÄ0_ÃÌÌÌÌÌÌº   é    ÌÌÌÌÌÌ3Òé    ÌÌÌÌÌÌÌÌÌº   é    ÌÌÌÌÌÌ3Òé    ÌÌÌÌÌÌÌÌÌH‰\$H‰t$WHƒì03ÿ‹÷è    H9=    „   ‹   ‹ß…Ò„’   H‹
+    HƒÁ ŠÐè2¨uÿÃHƒÁ8;ÚrìëqƒÊÿ;ÚtjA¸   HL$ è    ‹   ë=‹ÃHkÈ8H‹    DŠD AŠÀÐèA2À¨tA¶Ð‹ËÁêƒâè    ‹ð…Àu‹   ÿÃ;Úr¿HL$ è    ë¾   ‡=    H‹\$@‹ÆH‹t$HHƒÄ0_ÃÌÌÌÌÌÌÌÌÌƒùdtZƒùÿtM…ÉtAƒùt4ƒùt'ƒùtƒùt
+ƒùu^H    ÃH    ÃH    ÃH    ÃH    ÃH    ÃH    ÃH    ÃƒétIƒét<ƒét/ƒét"ƒétƒùtH    ÃH    ÃH    ÃH    ÃH    ÃH    ÃH    Ã   M       	    %        ,   	    6   A    J       o   M    x   	       L    Œ   B    “   
+    œ   	    ¢   $    ©   	    ¯   !    ¶   	    ½   
+    Ä   
+    Ñ       ý   Î      M      	    +  E    ;  E    I  
+    Z  
+    }  C    ž  F    «  G    E  D    g      u  Q    ›  9    Æ  0    Þ  1      7    <  M    C  	    O  
+    Z  
+    –  I    Ÿ  K    «  J    ¶  
+    À  D    Ç  H    Û        N      N    "  O    /  O    P  M    W  	    c  
+    t  
+    ¥  I    «  
+    º  
+    Ü  K    è  
+    ø  J          P  µ    X  ²    `  ¯    h  ¬    p  ©    x  ¦    €  £    ˆ  ¸    ®  Í    ¶  Ê    ¾  Ç    Æ  Ä    Î  Á    Ö  ¾    Þ  »    Hƒì(H‹    H…Òu.H‹
+    A¸   Ç       ÿ    H‰    H‹ÐH…Àt3ëJ‹
+   ‹   ;Èr@ L‹ÂLkÉ8H‹
+    3Òÿ    H‹ÐH…Àu3Àë,‹   ÀH‰    ‰   ‹
+   ‹ÁHkÀ8HÂÿÁ‰
+   HƒÄ(Ã   
+       	       
+    )   "    0   
+    @   
+    F   
+    [   	    c   #    u   
+    ~   
+    „   
+    Š   
+    ›   
+    Hƒì(‹   Pÿ;ÊsA‹ÂHkÐ8‹ÁHkÈ8H‹    LLD D òL0òL0‹   ‹   Hÿ‹Â‰
+   Ñèƒø r5;Ár1L‹    ‹ÂH‹
+    3ÒHÑèLkÈ8ÿ    H…Àt
+Ñ-   H‰    HƒÄ(Ã   
+        
+    N   
+    T   
+    _   
+    q   
+    z   	    ‰   #    ”   
+    ›   
+    H‰\$H‰t$WHƒì0‹ñ3ÿ‹
+   3Û…É„ˆ   H‹    HƒÂ ¶Ñèƒà;ÆuÿÃHƒÂ8;ÙrêëeƒÊÿ;Út^E3ÀHL$ …öA•Àè    D‹   ë3‹ÃHkÈ8H‹    ¶T Ñêƒâ;Öt‹Ö‹Ëè    ‹ø…ÀuD‹   ÿÃA;ØrÈHL$ è    H‹\$@‹ÇH‹t$HHƒÄ0_Ã   
+    &   
+    \   I    c   
+    r   
+    ‰   K    –   
+    §   J    H‰\$H‰l$H‰t$WHƒì0‹òH‹éè    3ÿH9=    „   H…íu‹Îè    ‹Øé   ‹
+   ƒÊÿL‹    ‹ß…ÉtI‹ÀH;(tÿÃHƒÀ8;Ùrñ‹Ú;ÚtG‹ÃHkÐ8B¶D Ñèƒà;Æt)A¸   HL$ ‹Óè    ‹Ö‹Ëè    HL$ ‹Øè    ë÷ÞÛƒÃë»   ë»   ‡=    H‹l$H‹ÃH‹\$@H‹t$PHƒÄ0_Ã   M    #   	    5   L    B   
+    L   
+    ‘   I    š   K    ¦   J    Ã       H‰\$H‰l$H‰t$ WHƒì ‹Á‹òHkØ8H    DŠC H‹H‹úA€àtHzûA¶ÀHJûE„ÀLL$0A¸@   HDÊH,E   H‹Õÿ    …Àu
+¸
+   éŒ   …ötÆé‹C+Çƒè‰GöC t+H‹fÇ ëùë!‹CöC ‰t·Cf‰GŠCˆGëŠCˆGD‹D$0LL$0H‹ÕH‹Ïÿ    ÿ    L‹ÅH‹×H‹Èÿ    €c ý@€æ@ŠÆ@ÀæÀ
+C $û@
+ÆˆC 3ÀH‹\$8H‹l$@H‹t$HHƒÄ _Ã   
+    ^   /    Å   /    Ë   &    Ú   .    H‰\$WHƒì 3Û{ëHƒû s3Éë‹Ïÿ    Hß3Àð±=    ußH‹\$0HƒÄ _Ã   %    ,       H‹ÄH‰XH‰pH‰x UATAUAVAWH¨¸ûÿÿHì   H‹    H3ÄH‰…  D‹êE3ö3ÒL‰1H‹ÙL‰qE‹àJè    H‹øHƒøÿ„Ð   AvH‹ÈHT$ ‰t$ è    é¥   ƒ|$ ‚‰   ÿ    9D$,u}ÿ    9D$(tqH‹H…Òu'ÇC€   A¸   H‹
+    ÿ    H‰H‹ÐH…Àt]ë5‹C9Cr-H‹
+    D L‹ÂIÁá3Òÿ    H‹ÐH…Àt1‹CÀH‰‰C‹K‹D$(‰ŠÿCHT$ ‰t$ H‹Ïè    …À…SÿÿÿH‹Ïÿ    L93„)  A‹þD9s†  H‹3Ò‹ÏD‹ˆJZÿ    H‹ðH…À„ñ   H‹Èÿ    HT$@ÇD$p  H‹Îÿ    …À„Á   ‹
+   AƒýÿtAMA‹ÖAEÕ;Ñƒ¢   L‹U8‹ÂLkð8+ÊD‹ùH‹    A‹ÄIÖE…ätƒøt¶J Áéƒáë	¹   ë3ÉD¶B A‹ÀÑèƒà;ÁtE…É„   D‹B$3ÉAƒàv¶D
+(HL;ÐtyÿÁA;Èrì3ÉH…ÉtH‰M8HT$@H‹Îÿ    L‹U8IƒÆ8Iƒï…pÿÿÿE3öH‹Îÿ    ÿÇ;{‚äþÿÿH‹  H3Ìè    Lœ$   I‹[8I‹s@I‹{HI‹ãA_A^A]A\]Ã¶L0HJë…AöÀtH‹
+HAûL;Ð„oÿÿÿD‹B$3ÉAƒàv¶D
+0HBL;ÐtÿÁA;ÈrëL;R…BÿÿÿH‹
+é<ÿÿÿ¶L(H
+é/ÿÿÿ)   Î    P   2    r   3    ˆ   '    ”   (    ¶   	    ¼   "    Ø   	    ë   #      4    -      W  )    l  *    ‚  ,      
+    ¿  
+    6  -    T      n  Q    H‰\$H‰l$H‰t$WHƒì 3Û‹ú‹óH‹éè    H9    „‘   H…íu99   ‹Ó†ƒ   @€ç@Àç‹ÂÿÂHkÈ8H‹    €d û@| ;   rßëXD‹   AƒÉÿH‹    ‹ÃE…ÀtH‹ÊH;)tÿÀHƒÁ8A;ÀrðA‹ÁA;ÁtHkÈ8@€ç@Àç€d û@| ë¾   ë¾   ‡    H‹\$0‹ÆH‹l$8H‹t$@HƒÄ _Ã   M    %   	    6   
+    U   
+    e   
+    p   
+    {   
+    Ç       H‰\$H‰t$WHƒì L‹H‹ÙM…ÀtL3ÿ9yv6H‹3ÒD‹¸JZÿ    H‹ðH…ÀtH‹Èÿ    H‹Îÿ    ÿÇ;{rÍL‹H‹
+    3Òÿ    H‹\$0H‹t$8HƒÄ _Ã/   )    @   +    I       Z   	    b   $    
+ 
+4 
+2p
+ 
+4 
+2p  ²ð	àÀp`0P    X    b   d 4 2p d
+ T	 4 Rp d	 4 Rp,   P        [           ~                                 k           Ö           ß           R       R       [       S       S       _       T       T        a    $   U    (   U    ,   c    0   V    4   V    8   e    <   W    @   W    D   g    H   X    L   X    P   i     B      ¤           G       G       m     B      ¤           H       H       s    7
+ &t­ &d¬ &4« &¤ ðàÐÀP            P        ô          I       I       y     d 4 2p    v           J       J            d	 T 4 2p              K       K       …     d	 4 Rp    ½           L       L       ‹    
+ 
+4 
+2p    =           M       M       ‘     d
+ T	 4 Rp    Þ           N       N       —     d T 4 2p    â           O       O           MH_UNKNOWN MH_OK MH_ERROR_ALREADY_INITIALIZED MH_ERROR_NOT_INITIALIZED MH_ERROR_ALREADY_CREATED MH_ERROR_NOT_CREATED MH_ERROR_ENABLED MH_ERROR_DISABLED MH_ERROR_NOT_EXECUTABLE MH_ERROR_UNSUPPORTED_FUNCTION MH_ERROR_MEMORY_ALLOC MH_ERROR_MEMORY_PROTECT MH_ERROR_MODULE_NOT_FOUND MH_ERROR_FUNCTION_NOT_FOUND (unknown) lTçe–Ô‘.éggÞƒ÷e        ©f‡‰êŒþlÆ T8ºu˜Š#Ó`¹rÅM¸n¿/²\A«M¸Go#CÁiÆ!@ùÍ§+ºB³ï£&^¥ÎÚfµˆ¡Šç+š-)M­‡¡ÆˆžŽmrÆËgÙì­Ò -ˆgð(óžõ¥ýœGG}qà-ˆgð(óžõ¥ýœGG}qà­A&èDUlæ6›U¸cÏÐÔ
+‰£gt	„>¹¯.fÎAÇ^ÃÁaò÷-ÕoHÙ]ìzPj¢eh±¤:m9E\$LÓÔÞ¯1þ8]ZýM«§U;nÒ­ÜŸ3²ÓÍ»æÆ©ƒÀ,?D¼LädrÝï@ïk=î·JÔ¶ú3+ ­­g×ÞÓ©ÔîÊ^¿‹Iù›î›éœÅæÓ
+v&é¶ÃÖóNKOpÍ*Ñ< ^\ì‡''P\–E\ÐŽü»D3oC}úHyWŠéÖv—4V+L.›¶Ø7VeŠ	@˜8¿’é>f        @comp.id–iÿÿ   @feat.00 €ÿÿ   .drectve       ]                 .debug$S       œ                 .bss                                           g_hHeap        g_hooks         .text$mn       ã  M   J·îñ      .text$mn       ¤      mw¤     .text$mn       ¤   
+   J$sª     .text$mn       ½      }'     .text$mn       Þ   	   ¾kœ     .text$mn    	        Ä!ä»     .text$mn    
+   =      *§£     .text$mn       ô     ?3V     .text$mn       â      ÜKƒu     .text$mn    
+   v      fC8y                         !                2                D                T                f                u                                ™                ³                Ì                Ý                ñ                                              2               N               c               z                              ¨               ¶               Ã              Ñ  d           á  è           ï               ¬                       !  ü          /            >            Q  ,          e  <          t  $          †               —               ª               ¹               Ä               Ø               ñ              þ          Freeze          Unfreeze    
+              	                      ,      
+        :              E              O               `           $LN10           $LN9    d       $LN34   è       $LN4          $LN7    ¬      $LN24          $LN30   <      .xdata         p      ,zC'          x          .pdata         T      S)ç¥          Ž              £             »             Ò             è             ý  4             $           .  <           I  0           c  L           y  <           Ž  `           ¥  H       .xdata                Ñ9Å        »          .pdata               vé.        Ð          .xdata                Ñ9Å        ä          .pdata               vé.        ü          .xdata         (      hÉw_                  .pdata               ™¾ì        "          .xdata                §Oí
+        0          .pdata               ˜?j
+        A          .xdata                Ù*;S	        Q          .pdata               :f	        f          .xdata                D[        z          .pdata               vÃóM        “          .xdata                %ÍY%
+        «          .pdata               ¬FÈ
+        Á          .xdata                Éy        Ö          .pdata               .d—        é          .xdata                 ‡Ccô        û           .pdata      !         "õÁ        
+      !    .rdata      "          Ï`Šr               "    .rdata      #          ýI`          <      #    .rdata      $          î±X.         T      $    .rdata      %          þµcÂ         …      %    .rdata      &          õ`Z         ²      &    .rdata      '          ‹š         ß      '    .rdata      (          ÐPJA               (    .rdata      )          Jkº         -      )    .rdata      *          ›D±         S      *    .rdata      +          2ªEi               +    .rdata      ,          1@z          ±      ,    .rdata      -          V°µ/         Û      -    .rdata      .          ³˜À               .    .rdata      /          Ýrà         5      /    .rdata      0   
+       z s         e      0        ‡           .chks64     1   ˆ                ™  g_isLocked __imp_CloseHandle __imp_HeapCreate __imp_HeapDestroy __imp_HeapAlloc __imp_HeapReAlloc __imp_HeapFree __imp_Sleep __imp_GetCurrentProcess __imp_GetCurrentProcessId __imp_GetCurrentThreadId __imp_OpenThread __imp_SuspendThread __imp_ResumeThread __imp_GetThreadContext __imp_SetThreadContext __imp_FlushInstructionCache __imp_VirtualProtect __imp_GetModuleHandleW __imp_GetProcAddress CreateToolhelp32Snapshot Thread32First Thread32Next MH_Initialize MH_Uninitialize MH_CreateHook MH_CreateHookApi MH_CreateHookApiEx MH_RemoveHook MH_EnableHook MH_DisableHook MH_QueueEnableHook MH_QueueDisableHook MH_ApplyQueued MH_StatusToString InitializeBuffer UninitializeBuffer AllocateBuffer FreeBuffer IsExecutableAddress CreateTrampolineFunction AddHookEntry DeleteHookEntry EnableHookLL EnableAllHooksLL EnterSpinLock EnableHook QueueHook __GSHandlerCheck __security_check_cookie $unwind$MH_Initialize $pdata$MH_Initialize $unwind$MH_Uninitialize $pdata$MH_Uninitialize $unwind$MH_CreateHook $pdata$MH_CreateHook $unwind$MH_CreateHookApi $pdata$MH_CreateHookApi $unwind$MH_CreateHookApiEx $pdata$MH_CreateHookApiEx $unwind$MH_RemoveHook $pdata$MH_RemoveHook $unwind$MH_ApplyQueued $pdata$MH_ApplyQueued $unwind$AddHookEntry $pdata$AddHookEntry $unwind$DeleteHookEntry $pdata$DeleteHookEntry $unwind$Freeze $pdata$Freeze $unwind$Unfreeze $pdata$Unfreeze $unwind$EnableHookLL $pdata$EnableHookLL $unwind$EnableAllHooksLL $pdata$EnableAllHooksLL $unwind$EnterSpinLock $pdata$EnterSpinLock $unwind$EnableHook $pdata$EnableHook $unwind$QueueHook $pdata$QueueHook ??_C@_0L@OGPCCONM@MH_UNKNOWN@ ??_C@_05GOFNBHKB@MH_OK@ ??_C@_0BN@NKPDILDH@MH_ERROR_ALREADY_INITIALIZED@ ??_C@_0BJ@NEFDEEIO@MH_ERROR_NOT_INITIALIZED@ ??_C@_0BJ@EMFAAEGJ@MH_ERROR_ALREADY_CREATED@ ??_C@_0BF@KAPHKAPP@MH_ERROR_NOT_CREATED@ ??_C@_0BB@HHFKFOJC@MH_ERROR_ENABLED@ ??_C@_0BC@CCPCFLPI@MH_ERROR_DISABLED@ ??_C@_0BI@ONHKLIEE@MH_ERROR_NOT_EXECUTABLE@ ??_C@_0BO@JGLOGLHI@MH_ERROR_UNSUPPORTED_FUNCTION@ ??_C@_0BG@FHKMAOCO@MH_ERROR_MEMORY_ALLOC@ ??_C@_0BI@HDILIFIJ@MH_ERROR_MEMORY_PROTECT@ ??_C@_0BK@FENDNJHO@MH_ERROR_MODULE_NOT_FOUND@ ??_C@_0BM@JPINPKML@MH_ERROR_FUNCTION_NOT_FOUND@ ??_C@_09GPGAJHPD@?$CIunknown?$CJ@ __security_cookie /70             1560239439              100666  3426      `
+d† O]ÿ\¢         .drectve        ]   ,               
+ .debug$S            ‰              @ B.data             )              @ PÀ.text$mn        b  :  œ
+           0`.xdata             (              @ 0@.pdata             @  L         @ 0@.chks64         8   j               
+     /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"MSVCRT" /DEFAULTLIB:"OLDNAMES"    ñ   ‘   S     D:\wZeug\Downloads\minhook-1.3.3\build\VC15\x64\Release\libMinHook\hde64.obj : < b  Ð   –i   –i Microsoft (R) Optimizing Compiler    ¥ª¥¸¥ª¥ª¥¸¥¸¥¸¥¸ÀÀÀÀÀÀÀÀ¬ÀÌÀ¡¡¡¡±¥¥¦ÀÀ×ÚàÀäÀêêàà˜Èîñ¥Ó¥¥¡êžÀÀÂÀæ?«‹d[[[[[’[[v’’[[[[[[[[[[[[js[RRRR[[[[w|w…[[p[z¯vv[[[[[[[[[[[†ÕÕÌ¼ð PPPPÿ    Äÿÿÿ ÿÄÆÈ ÿÌ    ÿÿÀÂÿÿÿ   ÿ  ÿÿÿÿ  ÆÈ  ÿ ÀÂÊ@ 
+      3      ÿ¿ÿÿ      ÿ              ÿÿ   ¿          ÿ@@@@AI@@@@LB@@@@@@@@ODS@@@DWC\@`@@@@@@@@@@@@@@dfnk@@jF@@DF@@[D@@      
+
+   
+            ( 0 €‚† öÏþ?« ° ± ³ ºø» À Á Ç¿bÿ ÿ Äÿ Åÿ ÿÿëÿ 	  	 +	 ®ÿ²ÿ ´ÿ µÿ Ã Çÿ¿ç ð H‰\$ H‰L$UVWATAUAVAWL‹ÂL    E2öL‹éL‹ÉD‰t$P2ÒE2ä3ÀI‹øA²H%óªhXA¶9LÍ‹Ïƒÿfw#tAÚ©çÿÿÿtAœ;ÅwLAˆx°@ë<Aˆx°ë4ƒégt)é‰   tƒét;Íu&AˆxŠÃëAˆx°ëAˆx° ëAˆx°
+ÐA€Âÿu“¶Â‹ÍD¶ÒAÁâ„ÒE‰P!EÈ@ŠÇ$ð<@u_Aºê@ŠÇÀè@"ÅE‰P!Aˆ@tAŠ$øE¶ö<¸DDõD‰t$P@ŠÇÀè@"ÅAˆ@@ŠÇÐè@"ý@"ÅAˆx
+Aˆ@	AŠ9LÍ@ŠÇ$ð<@uŠÙëbAˆxŠÙ@€ÿuAŠ9LJ   AˆxLÍë#@€ÿ rŠÙ@€ÿ£wDõD‰t$PöÁt€Ëë€ã÷@¶×‹ÂƒâHÁèB¶I@Š4@€þÿuAÊ 0  @¶ÇƒàýE‰P!@2ö<$u@Šõ@2í@„öy@¶ÆƒàB·4·îfÁíEŠxE‹ÚE„ÿt:@¶×H
+    ‹ÂƒâHÁè¶Œ<  H    HÊ„œ<  tAË 0  E‰X!@öÆ„?  AƒËE‰X!E‹ÓEŠ1EŠîEˆp
+AŠÎAÀí€áAÀîA€æEˆhˆL$HAˆHEˆp@„ítAŠÎ@¶ÅÓàŠL$H„ÀyAÊ 0  E‰P!A‹ÂDŠßE„ÿu[@€ÿÙrU@€ÿßwOAC'¶ÐA€ýuA¶ÆHÐH    DŠœ  ëH    AŠÎDŠœý   AÒãA‹ÂE„ÛDŠßy	
+ 0  A‰@!öÃ tqA€ýu
+   A‰@!ë`HÆ  D¶×E„ÿHØ  H
+Æ  HDÐAŠÃ$þE„ÿDDÐH®  HDÈëŠA:ÂtHƒÁH;Êuðë
+¶AAŠÎÓà„ÀyAH!   @¶Ï@·‹ÑE„ÿtHƒê t#ƒêt
+ƒêtƒêuEAFüAµ<‡È   é»   ¹   AµD:ñ‡ª   A€þ…¨   é›   êŒ   „Š   ƒêtA€ýuOE„ÿHç  H  HDÐH
+ç  HØ  HDÈëŠA:ÃtHƒÁH;ÊuðëQ„YtL¶AAŠÎÓà„Ày7ë=E„ÿt8ƒéPtƒéut&ƒétƒétƒù uöÃ	uëöÃë÷A€þtD:÷vAH!  AŠQIƒÁA€þwA€ûöu@€Îë
+A€û÷u@€ÎŠD$HA¶ÍE„ít&ƒétƒù¹   u;A´öÃu3DŠáë.A´¹   ë$¹   öÃt<A•ÄAþÌA€äë@:ÇE¶äDDáA€ýt<:Áu8AƒH!ŠÂÀèIÿÁAˆ@ŠÂÀè$AˆP€âAˆ@AˆP@:×uAöÅE¶äDDáIÿÉA¶Ìƒét*ƒétƒùu,Aºh!A‹A‰@ëAºh!A·fA‰@ëAƒH!@AŠAˆ@D‹t$PL‹l$@A¶ÄLÈëöÃ tAË   E‰X!@öÆt?@öÆ@t öÃ„Ì   AH!  A·IƒÁfA‰@ëgE„ö„Ž   AƒH! I‹IƒÁI‰@¹   @„ñtAƒH!A·IƒÁfA‰@@öÆtA	H!AŠIÿÁAˆ@@öÆ@uk@öÆ tAH!  AŠIÿÁAˆ@E*ÍEˆA€ùvAH! P  A±AÆ H‹\$XA¶ÁA_A^A]A\_^]Ã¹   öÃu‚AƒH!A‹LÉA‰@éiÿÿÿ¹   AH!  A‹LÉA‰@ë™       B      Ü      ô             ±      ð      þ                  À      Ç      Ò      Ù      	 4 ðàÐÀ
+p`P      b                            lTçe–Ô‘.RñøÅý"7F£Z{äP‘ a0È"iÉ8Je"pd44DŸ¤WbR³Ü­        @comp.id–iÿÿ   @feat.00 €ÿÿ   .drectve       ]                 .debug$S                         .data                "-)F                     .text$mn       b     Ï”§Ö                     $LN158          .xdata                µGÇÌ                     .pdata               ü’ñ          2           .chks64        8                 F   hde64_table hde64_disasm $unwind$hde64_disasm $pdata$hde64_disasm /103            1560239439              100666  3169      `
+d†	 O]ÿ\‹  -       .drectve        ]   |               
+ .debug$S            Ù              @ B.text$mn          y  •           0`.text$mn           å  å          0`.xdata              5              @ 0@.pdata          0   U  …         @ 0@.xdata             ý              @0@.pdata               %         @0@.chks64         H   C               
+     /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"uuid.lib" /DEFAULTLIB:"MSVCRT" /DEFAULTLIB:"OLDNAMES"    ñ   ’   T     D:\wZeug\Downloads\minhook-1.3.3\build\VC15\x64\Release\libMinHook\buffer.obj : < b  Ð   –i   –i Microsoft (R) Optimizing Compiler   Â  ÌÌÌÌÌÌÌÌÌ@SHƒì H‹
+    Hƒ%     H…ÉtH‹3ÒA¸ €  ÿ    H‹ËH…ÛuçHƒÄ [ÃÌÌÌÌÌÌÌHƒì(è    H‹ÐH…ÀtH‹@H‹ÿBH‰JHƒÄ(ÃÌÌÌÌÌÌÌÌHƒì(L‹Á3ÒH‹
+    I‹ÀH% ðÿÿëH;ÈtH‹ÑH‹	H…ÉuðHƒÄ(ÃH‹AI‰ ƒAÿL‰Au"H‹H…ÒtH‰ëH‰    3ÒA¸ €  ÿ    HƒÄ(ÃÌÌÌÌÌÌÌÌHƒìXA¸0   HT$ ÿ    |$@   uöD$Dðt¸   ë3ÀHƒÄXÃ              3   
+    Q       „       É       ×   
+    ù       H‹ÄH‰XH‰pH‰xL‰` UAVAWH‹ìHì€   H‹ùHM ÿ    L‹u¨Hÿ   @vH‡   ÀL;ðLBðH‹    L¿   @L9}°LF}°Iïÿ  H…ÛtI;ÞrI;ßsHƒ{ …Z  H‹ëáH‹÷I;þruD‹eÈ3ÒH‹ÆI÷ôH+òë*A¸0   HUÐH‹Îÿ    H…Àt}ð   tH‹uØI;ôrI+ôI;ösÎ3öH…öt+º   A¹@   A¸ 0  H‹Îÿ    H‹ØH…À…ž   I;ös‹H…Ûé„   D‹uÈ3ÒH‹ÇA‹öI÷öA‹ÆH+ÂHÇH‹øI;Çw=A¸0   HUÐH‹Ïÿ    H…Àt%}ð   t3ÒA~ÿH}èH}ÐH‹ÇH÷öH+úI;ÿvÃ3ÿH…ÿtlº   A¹@   A¸ 0  H‹Ïÿ    H‹ØH…ÀuI;ÿ†qÿÿÿë?Hƒc HK@ƒc º@   H‹CHƒÂ@H‰H‰KHƒÁ@HúÀ  väH‹    H‰H‰    Lœ$€   H‹ÃI‹[ I‹s(I‹{0M‹c8I‹ãA_A^]Ã+       M       ¯       ï       ;      †      Î      Ø       20 B   B   ¢      9           $           h           4                                                                    !    $       (       ,   #    " "Ä "t "d "4 "òðàP                             '    lTçe–Ô‘.7Ç¸~§¦ãŽ´t£u‰[c
+‚B3}]Ü‡ÍÔ¬ÆAâd	:Þ2»B
+ß!\_ÀÔ_(>        @comp.id–iÿÿ   @feat.00 €ÿÿ   .drectve       ]                 .debug$S                                        .text$mn            @Ä B      .text$mn             ³ÆYÿ                         (                ;                M                `               q              „   L           “   x           ž   è           ²           $LN10          $LN5    L       $LN16   x       $LN6    è       .xdata                 â          Á           .pdata         0      ‡Ò8Ò          Ü               ö              
+             #             6             H             d  $       .xdata                è0                  .pdata               )Ÿ—        –          .chks64     	   H                 ¬  g_pMemoryBlocks __imp_GetSystemInfo __imp_VirtualAlloc __imp_VirtualFree __imp_VirtualQuery InitializeBuffer UninitializeBuffer AllocateBuffer FreeBuffer IsExecutableAddress GetMemoryBlock $unwind$UninitializeBuffer $pdata$UninitializeBuffer $unwind$AllocateBuffer $pdata$AllocateBuffer $unwind$FreeBuffer $pdata$FreeBuffer $unwind$IsExecutableAddress $pdata$IsExecutableAddress $unwind$GetMemoryBlock $pdata$GetMemoryBlock 
