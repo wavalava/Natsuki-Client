@@ -4,9 +4,9 @@ void ClickGui::onMouseClickUpdate(int key, bool isDown) {
 	static auto clickGuiMod = moduleMgr->getModule<ClickGuiMod>();
 	if (clickGuiMod->isEnabled() && g_Data.isInGame())
 	switch (key) {
-	case 1:  // Left Click
+	case 1:  
 		isLeftClickDown = isDown;
-  5  Horion/Module/Modules/Teleport.cpp 
+  5  Natsuki/Module/Modules/teleport.cpp 
 @@ -35,8 +35,9 @@ void Teleport::onTick(C_GameMode* gm) {
 	}
 	if (!GameData::isRightClickDown()) 
