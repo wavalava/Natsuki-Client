@@ -3,7 +3,6 @@ Natsuki-client is a Minecraft: Bedrock Edition utility mod designed to enhance g
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86676079/131226755-bab8c79d-6df7-4d31-a64c-bc8faca9c161.png"/>
 </p>
-[natsukiclientbanner](https://user-images.githubusercontent.com/86676079/131226755-bab8c79d-6df7-4d31-a64c-bc8faca9c161.png)
 
 
 
