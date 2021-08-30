@@ -1,7 +1,7 @@
 #include "PlayerTeleportCommand.h"
 #include "../../../Utils/Utils.h"
 
-PlayerTeleportCommand::PlayerTeleportCommand() : IMCCommand("playertp", "Teleports to players coordinates", "<NameOfThePlayer>") {
+PlayerTeleportCommand::PlayerTeleportCommand() : IMCCommand("playertp", "Teleports to players", "<NameOfThePlayer>") {
 }
 
 PlayerTeleportCommand::~PlayerTeleportCommand() {
@@ -50,6 +50,6 @@ bool PlayerTeleportCommand::execute(std::vector<std::string>* args) {
 		return true;
 	}
 	g_Data.getLocalPlayer()->setPos(pos);
-	clientMessageF("[%sHorion%s] %sTeleported to %s", GOLD, WHITE, GREEN, playerName.c_str());
+	clientMessageF("[%sNatsuki%s] %sTeleported to %s", PINK, PURPLE, GRAY, playerName.c_str());
 	return true;
 }
