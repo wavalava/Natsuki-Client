@@ -1,6 +1,6 @@
 #include "Sex.h"
 
-SexCommand::BruhCommand() : IMCCommand("balls", "funi", "a") {
+SexCommand::SexCommand() : IMCCommand("balls", "funi", "a") {
 }
 
 SexCommand::~SexCommand() {
