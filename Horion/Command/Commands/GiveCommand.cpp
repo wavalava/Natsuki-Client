@@ -79,6 +79,6 @@ bool GiveCommand::execute(std::vector<std::string>* args) {
 
 	inv->addItemToFirstEmptySlot(yot);
 
-	clientMessageF("%sSuccessfully given item!", GREEN);
+	clientMessageF("%sGiven Successfully!", PINK);
 	return true;
 }
