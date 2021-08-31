@@ -17,6 +17,6 @@ bool GameModeCommand::execute(std::vector<std::string>* args) {
 		return true;
 	}
 
-	clientMessageF("[%sHorion%s] %sInvalid GameMode!", GOLD, WHITE, RED);
+	clientMessageF("[%sNatsuki%s] %sInvalid GameMode!", RED);
 	return true;
 }
