@@ -48,7 +48,7 @@ bool NbtCommand::execute(std::vector<std::string>* args) {
 			} else if (item != nullptr && item->tag != nullptr) {
 				item->tag->write(build);
 			} else {
-				clientMessageF("%sCouldn't find NBT tags!", RED);
+				clientMessageF("%sCouldn't find NBT tag!", RED);
 				return true;
 			}
 		}
