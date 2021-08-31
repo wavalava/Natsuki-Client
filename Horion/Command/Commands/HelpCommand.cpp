@@ -14,7 +14,7 @@ bool HelpCommand::execute(std::vector<std::string>* args) {
 	std::vector<IMCCommand*>* commandList = cmdMgr->getCommandList();
 	for (auto it = commandList->begin(); it != commandList->end(); ++it) {
 		IMCCommand* plump = *it;
-		clientMessageF("%s%s - %s%s", plump->getCommand(), GRAY, ITALIC, plump->getDescription());
+		clientMessageF("%s%s - %s%s", plump->getCommand(), GRAY, BOLD, plump->getDescription());
 	}
 	return true;
 }
