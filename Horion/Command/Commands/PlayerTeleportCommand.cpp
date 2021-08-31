@@ -46,7 +46,7 @@ bool PlayerTeleportCommand::execute(std::vector<std::string>* args) {
 		break;
 	}
 	if (pos.iszero()) {
-		clientMessageF("[%sHorion%s] %sCouldn't find player: %s!", GOLD, WHITE, RED, nameOfPlayer.c_str());
+		clientMessageF("[%sNatsuki%s] %sCouldn't find player: %s!", GOLD, WHITE, RED, nameOfPlayer.c_str());
 		return true;
 	}
 	g_Data.getLocalPlayer()->setPos(pos);
